@@ -290,6 +290,14 @@ header .intro-text {
 	margin: 30px 0;
 	font-size: 18px;
 }
+#about a {
+	line-height: 24px;
+	margin: 10px 0;
+	font-size: 20px;
+	color: #f89b29;
+	text-decoration: underline;
+	text-align: center;
+}
 /* Services Section */
 #services {
 	padding: 100px 0;
@@ -570,11 +578,11 @@ color: #777;
 }
 /* FAQ Section */
 #faq {
-	padding: 100px 0;
+	padding: 80px 0;
 }
 #faq h3 {
 	font-size: 28px;
-	margin: 0 0 20px 0;
+	margin: 30px 0 20px 0;
 }
 #faq h2 {
 	position: relative;

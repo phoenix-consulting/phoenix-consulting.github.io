@@ -3,8 +3,8 @@
 
         "title": "Ready, Set, Health!",
         "text1": "Phoenix Consulting Group presents:",
-        "text2":"A demo day for excited investors and early-stage startups in healthcare", 
-        "text3":"Tuesday, May 4, 2021 | Hosted on HopIn"
+        "text2": "A demo day for excited investors and early-stage startups in healthcare", 
+        "text3": "Tuesday, May 4, 2021 | Hosted on HopIn"
 
     },
     "About": {
@@ -102,8 +102,24 @@
         }
     ],
     "Faq": [{
-            "img": "img/sompo.png",
-            "url": "https://sompo.io/"
-        }
-    ]
+        "question": "What is this event?",
+        "answer": "This demo day is an event organized by Phoenix Consulting Group at UC Berkeley that brings together startups and investors in the healthcare space. Interested startups should send business summaries to the form on this site. Interested investors should fill out the registration form on this site. Some investors set to attend include representatives from Bessemer Venture Partners, Pillar Venture Capital, The House Fund, and more."
+    }, {
+        "question": "What are the logistics of the event?",
+        "answer": "The event will be on Tuesday, May 4, 2021 from 10 AM to 2:30 PM Pacific Time. The event will be held virtually on HopIn, and will feature ample networking opportunities for startups and VCs, along with a few speakers."
+    }, {
+        "question": "What is the format of the Demo Day?",
+        "answer": "For the duration of the event, networking rooms will be open. We will have two rounds of mainstage pitches with a lunch break in between. The startups pitching will be reviewed by our panel of judges who will ultimately decide the recepient of the $25,000 prize."
+    }, {
+        "question": "What happens after the Demo Day?",
+        "answer": "After the event, we will be sending all attendees a list of relevant contacts. Investors who attend can also expect to receive information on all of the startups in attendance."    
+    }, {
+        "question": "Why should I attend?",
+        "answer": "This totally free event offers an opportunity to network with eager investors and startups on the cutting edge of healthcare technology!"    
+    }, {
+        "question": "What's the long-term goal?",
+        "answer": "For us, this demo day is just the first step towards developing a place to nurture healthcare talent coming out of the Berkeley ecosystem. In the coming semesters, we will be building a healthcare accelerator for early-stage projects. If this vision piques your interest, don't hesitate to reach out! We're always looking for more sponsors & partners."    
+    }
+    
+]
 }
