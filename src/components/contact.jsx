@@ -6,15 +6,37 @@ export class Contact extends Component {
       <div>
         <div id="contact">
           <div className="container">
-            <div className="col-md-8">
+
+          <div className="">
+              <div className="">
+                <h2>Join Us!</h2>
+                <div className="col-sm-6">
+                <a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
+                <h3> Click here if you're a startup looking to register! </h3> 
+                </a>
+                </div>
+                <div className="col-sm-6">
+                <a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
+                <h3> Click here if you're an investor looking to register! </h3> 
+                </a>
+                </div>
+
+                
+
+              </div>
+
+              
+
+            </div>
+
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h3>For other inquiries</h3>
                   <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
+                    Follow the appropriate link to apply as a startup, or to attend as an investor. If you're interested in partnering with us as a sponsor or have other inquiries, feel free to fill in the form and we'll do our best to get back to you expeditiously.  
                   </p>
                 </div>
+
                 <form name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
@@ -58,69 +80,28 @@ export class Contact extends Component {
                     Send Message
                   </button>
                 </form>
-              </div>
-            </div>
-            <div className="col-md-3 col-md-offset-1 contact-info">
-              <div className="contact-item">
-                <h3>Contact Info</h3>
-                <p>
-                  <span>
-                    <i className="fa fa-map-marker"></i> Address
-                  </span>
-                  {this.props.data ? this.props.data.address : "loading"}
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-phone"></i> Phone
-                  </span>{" "}
-                  {this.props.data ? this.props.data.phone : "loading"}
-                </p>
-              </div>
-              <div className="contact-item">
-                <p>
-                  <span>
-                    <i className="fa fa-envelope-o"></i> Email
-                  </span>{" "}
-                  {this.props.data ? this.props.data.email : "loading"}
-                </p>
-              </div>
-            </div>
-            <div className="col-md-12">
-              <div className="row">
+
                 <div className="social">
                   <ul>
+                    
                     <li>
-                      <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
-                      >
-                        <i className="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
+                      <a href={this.props.data ? this.props.data.twitter : "/"} target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-twitter"></i>
                       </a>
                     </li>
-                    <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
-                      </a>
-                    </li>
+
                   </ul>
-                </div>
-              </div>
+              
             </div>
+            </div>
+
+            
           </div>
         </div>
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
-              <a href="http://www.templatewire.com" rel="nofollow">
-                TemplateWire
-              </a>
+              &copy; 2021 Phoenix Consulting Group
             </p>
           </div>
         </div>

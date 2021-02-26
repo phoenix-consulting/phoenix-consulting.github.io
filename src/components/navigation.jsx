@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
+              Ready, Set, Health!
             </a>{" "}
           </div>
 
@@ -29,38 +29,33 @@ export class Navigation extends Component {
           >
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#features" className="page-scroll">
-                  Features
-                </a>
-              </li>
-              <li>
                 <a href="#about" className="page-scroll">
                   About
                 </a>
               </li>
               <li>
-                <a href="#services" className="page-scroll">
-                  Services
+                <a href="#sponsors" className="page-scroll">
+                  Sponsor
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="page-scroll">
-                  Gallery
+                <a href="#attendees" className="page-scroll">
+                  Attendees
                 </a>
               </li>
               <li>
-                <a href="#testimonials" className="page-scroll">
-                  Testimonials
+                <a href="#partners" className="page-scroll">
+                  Partners
                 </a>
-              </li>
+              </li> 
               <li>
-                <a href="#team" className="page-scroll">
-                  Team
+                <a href="#faq" className="page-scroll">
+                  F.A.Q.
                 </a>
               </li>
               <li>
                 <a href="#contact" className="page-scroll">
-                  Contact
+                  Join!
                 </a>
               </li>
             </ul>

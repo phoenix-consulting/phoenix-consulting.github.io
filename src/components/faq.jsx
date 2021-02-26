@@ -1,20 +1,15 @@
 import React, { Component } from 'react'
 
-export class about extends Component {
+export class faq extends Component {
   render() {
     return (
-        <div id="about">
+        <div id="faq">
         <div className="container">
           <div className="row">
-            <div className="col-md-6"> 
-            <a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer"> <img src="img/phoenix.png" className="img-responsive" alt=""/>
-            </a>
-            
-            <a href={"https://berkeley.edu"} target="_blank" rel="noopener noreferrer"> <img src="img/berkeley.png" className="img-responsive" alt=""/>
-            </a> </div>
-            <div className="col-md-6">
+           
               <div className="about-text">
-                <h2>About Us</h2>
+                <h2>Frequently Asked Questions
+                </h2>
                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
                 <h3>Register Now! </h3>
                 <div className="">
@@ -36,10 +31,10 @@ export class about extends Component {
               </div>
             </div>
           </div>
-        </div>
+        
       </div>
     )
   }
 }
 
-export default about
+export default faq

@@ -1,25 +1,30 @@
 import React, { Component } from "react";
 
-export class Gallery extends Component {
+export class Attendees extends Component {
   render() {
     return (
-      <div id="portfolio" className="text-center">
+      <div id="attendees" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Gallery</h2>
+            <h2>Attendees</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
+            Here's a glimpse of who's attending our event
+                        </p>
+            <iframe class="airtable-embed" 
+            src="https://airtable.com/embed/shrupqgD7kjI7PUFN?backgroundColor=red&viewControls=on" 
+            style={{frameborder: "0", onmousewheel: "", width: "100%", height:"533", style: "background: transparent; border: 1px solid #ccc;"}}></iframe>
+
           </div>
           <div className="row">
-            <div className="portfolio-items">
+{/* Make a temporary airtable and embed it here  */}
+
+            {/* <div className="attendees-items">
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/01-large.jpg"
+                      href="img/attendees/01-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -27,7 +32,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src="img/attendees/01-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -36,11 +41,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/02-large.jpg"
+                      href="img/attendees/02-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -48,7 +53,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/attendees/02-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -57,11 +62,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/03-large.jpg"
+                      href="img/attendees/03-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -69,7 +74,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/attendees/03-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -78,11 +83,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/04-large.jpg"
+                      href="img/attendees/04-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -90,7 +95,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/04-small.jpg"
+                        src="img/attendees/04-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -99,11 +104,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/05-large.jpg"
+                      href="img/attendees/05-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -111,7 +116,7 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/05-small.jpg"
+                        src="img/attendees/05-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -120,11 +125,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/06-large.jpg"
+                      href="img/attendees/06-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -132,7 +137,7 @@ export class Gallery extends Component {
                         <h4>Dolor Sit</h4>
                       </div>
                       <img
-                        src="img/portfolio/06-small.jpg"
+                        src="img/attendees/06-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -141,11 +146,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/07-large.jpg"
+                      href="img/attendees/07-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -153,7 +158,7 @@ export class Gallery extends Component {
                         <h4>Dolor Sit</h4>
                       </div>
                       <img
-                        src="img/portfolio/07-small.jpg"
+                        src="img/attendees/07-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -162,11 +167,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/08-large.jpg"
+                      href="img/attendees/08-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -174,7 +179,7 @@ export class Gallery extends Component {
                         <h4>Lorem Ipsum</h4>
                       </div>
                       <img
-                        src="img/portfolio/08-small.jpg"
+                        src="img/attendees/08-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -183,11 +188,11 @@ export class Gallery extends Component {
                 </div>
               </div>
               <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
+                <div className="attendees-item">
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/09-large.jpg"
+                      href="img/attendees/09-large.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -195,20 +200,20 @@ export class Gallery extends Component {
                         <h4>Adipiscing Elit</h4>
                       </div>
                       <img
-                        src="img/portfolio/09-small.jpg"
+                        src="img/attendees/09-small.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
                     </a>{" "}
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-      </div>
     );
+  
   }
 }
 
-export default Gallery;
+export default Attendees;

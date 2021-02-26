@@ -1,24 +1,15 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Ready, Set, Health!",
+        "text1": "Phoenix Consulting Group presents:",
+        "text2":"A demo day for excited investors and early-stage startups in healthcare", 
+        "text3":"Tuesday, May 4, 2021 | Hosted on HopIn"
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+        "paragraph": "Phoenix Consulting Group is a UC Berkeley-based student group dedicated to consulting for the healthcare, life sciences, and biotech industries. As a way to further the health-tech industry, we’re launching an accelerator program for early-stage startups. We're kicking things off by connecting exciting early-stage startups with investors in our first-ever Demo Day May 4, 2021!"
+        
     },
     "Services": [{
             "icon": "fa fa-wordpress",
@@ -84,53 +75,35 @@
             "name": "Johnathan Doe"
         }
     ],
-    "Team": [{
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
+    "Partners": [{
+            "img": "img/partners/house-fund.png",
+            "url": "https://thehouse.fund/"
         },
         {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
+            "img": "img/partners/SKYDECK-BERKELEY.png",
+            "url": "https://skydeck.berkeley.edu/"
         }, {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
+            "img": "img/partners/neurotech.png",
+            "url": "https://neurotech.berkeley.edu/"
         }
+        
     ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
         "email": "info@company.com",
         "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "twitter": "https://twitter.com/pcgberkeley",
+        "youtube": "https://youtube.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Sponsors": [{
+            "img": "img/sompo.png",
+            "url": "https://sompo.io/"
+        }
+    ],
+    "Faq": [{
+            "img": "img/sompo.png",
+            "url": "https://sompo.io/"
         }
     ]
 }
