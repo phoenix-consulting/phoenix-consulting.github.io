@@ -1,0 +1,4 @@
+How to update site:
+
+- commit/push code to repo. May need to use git push -ff.
+- CALL: npm run build && node ./deploy-github
