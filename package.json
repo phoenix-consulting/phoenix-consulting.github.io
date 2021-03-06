@@ -1,7 +1,7 @@
 {
   "name": "pcg_demo_day",
   "private": true,
-  "homepage": "readysethealth.io",
+  "homepage": "https://www.readysethealth.io",
   "dependencies": {
     "@babel/runtime": "^7.13.9",
     "@testing-library/jest-dom": "^4.2.4",
