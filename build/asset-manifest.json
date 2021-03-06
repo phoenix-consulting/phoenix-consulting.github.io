@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/readysethealth.io/static/css/main.62d40da3.chunk.css",
-    "main.js": "/readysethealth.io/static/js/main.354a1ef7.chunk.js",
-    "main.js.map": "/readysethealth.io/static/js/main.354a1ef7.chunk.js.map",
-    "runtime-main.js": "/readysethealth.io/static/js/runtime-main.57cbcb24.js",
-    "runtime-main.js.map": "/readysethealth.io/static/js/runtime-main.57cbcb24.js.map",
-    "static/js/2.c126d411.chunk.js": "/readysethealth.io/static/js/2.c126d411.chunk.js",
-    "static/js/2.c126d411.chunk.js.map": "/readysethealth.io/static/js/2.c126d411.chunk.js.map",
-    "index.html": "/readysethealth.io/index.html",
-    "precache-manifest.345bc339703506b2ed994cacfb9da5f1.js": "/readysethealth.io/precache-manifest.345bc339703506b2ed994cacfb9da5f1.js",
-    "service-worker.js": "/readysethealth.io/service-worker.js",
-    "static/css/main.62d40da3.chunk.css.map": "/readysethealth.io/static/css/main.62d40da3.chunk.css.map",
-    "static/js/2.c126d411.chunk.js.LICENSE.txt": "/readysethealth.io/static/js/2.c126d411.chunk.js.LICENSE.txt"
+    "main.css": "/phoenix-consulting.github.io/demoday-public/static/css/main.62d40da3.chunk.css",
+    "main.js": "/phoenix-consulting.github.io/demoday-public/static/js/main.b31d7411.chunk.js",
+    "main.js.map": "/phoenix-consulting.github.io/demoday-public/static/js/main.b31d7411.chunk.js.map",
+    "runtime-main.js": "/phoenix-consulting.github.io/demoday-public/static/js/runtime-main.cc03b689.js",
+    "runtime-main.js.map": "/phoenix-consulting.github.io/demoday-public/static/js/runtime-main.cc03b689.js.map",
+    "static/js/2.c126d411.chunk.js": "/phoenix-consulting.github.io/demoday-public/static/js/2.c126d411.chunk.js",
+    "static/js/2.c126d411.chunk.js.map": "/phoenix-consulting.github.io/demoday-public/static/js/2.c126d411.chunk.js.map",
+    "index.html": "/phoenix-consulting.github.io/demoday-public/index.html",
+    "precache-manifest.f559357c1acaa846ef8903546bff227c.js": "/phoenix-consulting.github.io/demoday-public/precache-manifest.f559357c1acaa846ef8903546bff227c.js",
+    "service-worker.js": "/phoenix-consulting.github.io/demoday-public/service-worker.js",
+    "static/css/main.62d40da3.chunk.css.map": "/phoenix-consulting.github.io/demoday-public/static/css/main.62d40da3.chunk.css.map",
+    "static/js/2.c126d411.chunk.js.LICENSE.txt": "/phoenix-consulting.github.io/demoday-public/static/js/2.c126d411.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.57cbcb24.js",
+    "static/js/runtime-main.cc03b689.js",
     "static/js/2.c126d411.chunk.js",
     "static/css/main.62d40da3.chunk.css",
-    "static/js/main.354a1ef7.chunk.js"
+    "static/js/main.b31d7411.chunk.js"
   ]
 }
