@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/readysethealth.io/static/css/main.62d40da3.chunk.css",
-    "main.js": "/readysethealth.io/static/js/main.354a1ef7.chunk.js",
-    "main.js.map": "/readysethealth.io/static/js/main.354a1ef7.chunk.js.map",
-    "runtime-main.js": "/readysethealth.io/static/js/runtime-main.57cbcb24.js",
-    "runtime-main.js.map": "/readysethealth.io/static/js/runtime-main.57cbcb24.js.map",
-    "static/js/2.c126d411.chunk.js": "/readysethealth.io/static/js/2.c126d411.chunk.js",
-    "static/js/2.c126d411.chunk.js.map": "/readysethealth.io/static/js/2.c126d411.chunk.js.map",
-    "index.html": "/readysethealth.io/index.html",
-    "precache-manifest.709bc15b5a3d60f755ac979d852c2705.js": "/readysethealth.io/precache-manifest.709bc15b5a3d60f755ac979d852c2705.js",
-    "service-worker.js": "/readysethealth.io/service-worker.js",
-    "static/css/main.62d40da3.chunk.css.map": "/readysethealth.io/static/css/main.62d40da3.chunk.css.map",
-    "static/js/2.c126d411.chunk.js.LICENSE.txt": "/readysethealth.io/static/js/2.c126d411.chunk.js.LICENSE.txt"
+    "main.css": "/demoday-public/static/css/main.62d40da3.chunk.css",
+    "main.js": "/demoday-public/static/js/main.2eac7fc7.chunk.js",
+    "main.js.map": "/demoday-public/static/js/main.2eac7fc7.chunk.js.map",
+    "runtime-main.js": "/demoday-public/static/js/runtime-main.a3cfd621.js",
+    "runtime-main.js.map": "/demoday-public/static/js/runtime-main.a3cfd621.js.map",
+    "static/js/2.c126d411.chunk.js": "/demoday-public/static/js/2.c126d411.chunk.js",
+    "static/js/2.c126d411.chunk.js.map": "/demoday-public/static/js/2.c126d411.chunk.js.map",
+    "index.html": "/demoday-public/index.html",
+    "precache-manifest.d76be5a216ef9cca6e4d91a63888e6ea.js": "/demoday-public/precache-manifest.d76be5a216ef9cca6e4d91a63888e6ea.js",
+    "service-worker.js": "/demoday-public/service-worker.js",
+    "static/css/main.62d40da3.chunk.css.map": "/demoday-public/static/css/main.62d40da3.chunk.css.map",
+    "static/js/2.c126d411.chunk.js.LICENSE.txt": "/demoday-public/static/js/2.c126d411.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.57cbcb24.js",
+    "static/js/runtime-main.a3cfd621.js",
     "static/js/2.c126d411.chunk.js",
     "static/css/main.62d40da3.chunk.css",
-    "static/js/main.354a1ef7.chunk.js"
+    "static/js/main.2eac7fc7.chunk.js"
   ]
 }
