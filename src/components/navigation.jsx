@@ -18,9 +18,14 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
             </button>
+
+
+            
             <a className="navbar-brand page-scroll" href="#page-top">
               Ready, Set, Health!
-            </a>{" "}
+            </a>
+            <img src="img/unicorn-logo-06.png" width="50 rem"/> 
+
           </div>
 
           <div

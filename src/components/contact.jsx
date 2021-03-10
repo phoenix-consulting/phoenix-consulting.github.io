@@ -11,12 +11,12 @@ export class Contact extends Component {
               <div className="">
                 <h2>Join Us!</h2>
                 <div className="col-sm-6">
-                <a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
+                <a href={"https://airtable.com/shrGZDCXyjRIt20UO"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
                 <h3> Click here if you're a startup looking to register! </h3> 
                 </a>
                 </div>
                 <div className="col-sm-6">
-                <a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
+                <a href={"https://airtable.com/shrOhwEA2rexgig5l"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
                 <h3> Click here if you're an investor looking to register! </h3> 
                 </a>
                 </div>

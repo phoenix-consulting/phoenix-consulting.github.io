@@ -20,14 +20,14 @@ export class about extends Component {
                 <div className="">
 
                   <div className="col-sm-6">
-                  <a href={""} target="_blank" rel="noopener noreferrer"> 
+                  <a href={"https://airtable.com/shrGZDCXyjRIt20UO"} target="_blank" rel="noopener noreferrer"> 
                   I'm a startup looking to attend! 
                   
                   </a>
                   </div>
 
                   <div className="col-sm-6">
-                  <a href={""} target="_blank" rel="noopener noreferrer"> 
+                  <a href={"https://airtable.com/shrOhwEA2rexgig5l"} target="_blank" rel="noopener noreferrer"> 
                   I'm an investor looking to attend! 
                   </a>
                   </div>

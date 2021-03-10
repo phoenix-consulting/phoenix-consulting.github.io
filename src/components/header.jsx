@@ -24,6 +24,8 @@ export class Header extends Component {
                   <p>
                     {this.props.data ? this.props.data.text3 : "Loading"}
                   </p>
+                  <img src="img/unicorn-logo-05.png" width="200 rem"/> 
+
                   {/* <a
                     href="#features"
                     className="btn btn-custom btn-lg page-scroll"

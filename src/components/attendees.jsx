@@ -10,12 +10,14 @@ export class Attendees extends Component {
             <p>
             Here's a glimpse of who's attending our event
                         </p>
-            <iframe class="airtable-embed" 
-            src="https://airtable.com/embed/shrupqgD7kjI7PUFN?backgroundColor=red&viewControls=on" 
-            style={{frameborder: "0", onmousewheel: "", width: "100%", height:"533", style: "background: transparent; border: 1px solid #ccc;"}}></iframe>
 
+            <iframe class="airtable-embed"
+            src="https://airtable.com/embed/shrmb0HR77zTu3iqu?backgroundColor=yellow&viewControls=on"
+            style={{frameborder: "0", onmousewheel: "", width: "100%", height:"533", style:"background: transparent; border: 1px solid #ccc;"}}></iframe>
+            
           </div>
           <div className="row">
+            
 {/* Make a temporary airtable and embed it here  */}
 
             {/* <div className="attendees-items">
