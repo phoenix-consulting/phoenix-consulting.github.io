@@ -33,10 +33,10 @@ export class Contact extends Component {
                 <div className="section-title">
                   <h3>For other inquiries</h3>
                   <p>
-                    Follow the appropriate link to apply as a startup, or to attend as an investor. If you're interested in partnering with us as a sponsor or have other inquiries, feel free to fill in the form and we'll do our best to get back to you expeditiously.  
+                    Follow the appropriate link to apply as a startup, or to attend as an investor. If you're interested in partnering with us as a sponsor or have other inquiries, please email mohakjain@berkeley.edu and we'll do our best to get back to you expeditiously.  
                   </p>
                 </div>
-
+{/* 
                 <form name="sentMessage" id="contactForm" noValidate>
                   <div className="row">
                     <div className="col-md-6">
@@ -79,7 +79,7 @@ export class Contact extends Component {
                   <button type="submit" className="btn btn-custom btn-lg">
                     Send Message
                   </button>
-                </form>
+                </form> */}
 
                 <div className="social">
                   <ul>
