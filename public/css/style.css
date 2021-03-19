@@ -203,35 +203,46 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
 	font-family: Jost, sans-serif;
 	color: #fff;
-	font-size: 90px;
+	font-size: 10rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
-	margin-bottom: 15px;
+	margin-bottom: .5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	
 	white-space: nowrap;
 	text-align: center;
 }
+@media (max-width: 768px) {
+	.intro h1 {
+		font-size: 5rem;
+	}
+}
+
 .intro h1 span {
 	font-weight: 1000;
 	color: #f89b29;
 }
 .intro p {
 	color: #fff;
-	font-size: 25px;
+	font-size: 2.25rem;
 	font-weight: 300;
 	line-height: 30px;
 	margin: 0 auto;
-	margin-bottom: 15px;
+	margin-bottom: .5rem;
 }
 header .intro-text {
-	padding-top: 250px;
-	padding-bottom: 350px;
+	padding-top: 15rem;
+	padding-bottom: 25px;
 	text-align: center;
 }
 /* Sponsors Section */
