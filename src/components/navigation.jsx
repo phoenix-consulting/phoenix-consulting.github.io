@@ -22,7 +22,7 @@ export class Navigation extends Component {
 
             
             <a className="navbar-brand page-scroll" href="#page-top">
-              Ready, Set, Health!
+              Health Engine
             </a>
             <img src="img/unicorn-logo-06.png" width="50 rem"/> 
 
@@ -33,36 +33,34 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
+            
+
               <li>
                 <a href="#about" className="page-scroll">
-                  About
+                  <p>About</p>
                 </a>
               </li>
+
+
               <li>
-                <a href="#sponsors" className="page-scroll">
-                  Sponsor
+                <a href="#program" className="page-scroll">
+                  <p> Program</p>
                 </a>
               </li>
+
               <li>
-                <a href="#attendees" className="page-scroll">
-                  Attendees
+                <a href="#ready-set-health" className="page-scroll">
+                  <p> Ready, Set, Health!</p>
                 </a>
               </li>
-              <li>
-                <a href="#partners" className="page-scroll">
-                  Partners
-                </a>
-              </li> 
-              <li>
-                <a href="#faq" className="page-scroll">
-                  F.A.Q.
-                </a>
-              </li>
+             
               <li>
                 <a href="#contact" className="page-scroll">
-                  Join!
+                  <p> Apply! </p>
                 </a>
               </li>
+
+              
             </ul>
           </div>
         </div>

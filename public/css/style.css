@@ -4,8 +4,12 @@
   }
 
 @font-face {
-	font-family: 'Jost';
-	src: url('../fonts/fonts/Jost-Regular.ttf');
+	font-family: 'Dela';
+	src: url('../fonts/DelaGothicOne-Regular.ttf');
+  }
+@font-face {
+	font-family: 'Karla';
+	src: url('../fonts/Karla-Regular.ttf');
   }
 
 body, html {
@@ -18,7 +22,7 @@ body, html {
 	height: 100% !important;
 }
 h2, h3, h4 {
-	font-family: Jost, sans-serif;
+	font-family: Dela, sans-serif;
 }
 h2 {
 	text-transform: uppercase;
@@ -43,6 +47,7 @@ h5 {
 	line-height: 20px;
 }
 p {
+	font-family: Karla;
 	font-size: 15px;
 }
 p.intro {
@@ -50,6 +55,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
+	font-family: Karla, sans-serif;
 	color: #608dfd;
 	font-weight: 400;
 }
@@ -85,7 +91,7 @@ hr {
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
-	font-family: Jost, sans-serif;
+	font-family: Dela, sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
@@ -162,7 +168,7 @@ hr {
 	font-size: 18px;
 }
 .btn-custom {
-	font-family: Jost, sans-serif;
+	font-family: Dela, sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #f89b29;
@@ -209,7 +215,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
-	font-family: Jost, sans-serif;
+	font-family: Dela, sans-serif;
 	color: #fff;
 	font-size: 10rem;
 	font-weight: 700;

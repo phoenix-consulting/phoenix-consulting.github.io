@@ -4,11 +4,12 @@ import Header from './components/header';
 import Sponsors from './components/sponsors';
 import About from './components/about';
 import Services from './components/services';
-import Attendees from './components/attendees';
+import ReadySetHealth from './components/readysethealth';
 import Testimonials from './components/testimonials';
 import Partners from './components/partners';
 import Contact from './components/contact';
 import Faq from './components/faq';
+import Program from './components/program';
 import JsonData from './data/data.json';
 
 export class App extends Component {
@@ -30,12 +31,13 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         
         <About data={this.state.landingPageData.About} />
-        <Sponsors data={this.state.landingPageData.Sponsors} />
+        {/* <Sponsors data={this.state.landingPageData.Sponsors} /> */}
         {/* <Services data={this.state.landingPageData.Services} /> */}
-        <Attendees />
+        <Program data={this.state.landingPageData.Program}/>
+        <ReadySetHealth />
         {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}
-        <Partners data={this.state.landingPageData.Partners} />
-        <Faq data={this.state.landingPageData.Faq}/>
+        {/* <Partners data={this.state.landingPageData.Partners} /> */}
+        {/* <Faq data={this.state.landingPageData.Faq}/> */}
         <Contact data={this.state.landingPageData.Contact} />
       </div>
     )

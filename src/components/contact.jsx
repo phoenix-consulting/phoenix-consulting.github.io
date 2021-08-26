@@ -9,18 +9,7 @@ export class Contact extends Component {
 
           <div className="">
               <div className="">
-                <h2>Join Us!</h2>
-                <div className="col-sm-6">
-                <a href={"https://airtable.com/shrGZDCXyjRIt20UO"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
-                <h3> Click here if you're a startup looking to register! </h3> 
-                </a>
-                </div>
-                <div className="col-sm-6">
-                <a href={"https://airtable.com/shrOhwEA2rexgig5l"} target="_blank" rel="noopener noreferrer" style={{textDecoration: "underline"}}> 
-                <h3> Click here if you're an investor looking to register! </h3> 
-                </a>
-                </div>
-
+                <h2>Talk to Us!</h2>
                 
 
               </div>
@@ -31,10 +20,8 @@ export class Contact extends Component {
 
               <div className="row">
                 <div className="section-title">
-                  <h3>For other inquiries</h3>
-                  <p>
-                    Follow the appropriate link to apply as a startup, or to attend as an investor. If you're interested in partnering with us as a sponsor or have other inquiries, please email mohakjain@berkeley.edu and we'll do our best to get back to you expeditiously.  
-                  </p>
+                  <h3>Please send any inquiries to healthengine.berkeley@gmail.com</h3>
+                  
                 </div>
 {/* 
                 <form name="sentMessage" id="contactForm" noValidate>

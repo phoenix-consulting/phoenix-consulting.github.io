@@ -1,16 +1,21 @@
 {
     "Header": {
 
-        "title": "Ready, Set, Health!",
-        "text1": "Phoenix Consulting Group presents:",
-        "text2": "A demo day for excited investors and early-stage startups in healthcare", 
-        "text3": "Tuesday, May 4, 2021 | Hosted on HopIn"
+        "title": "Health Engine",
+        "text1": "UC Berkeley's Phoenix Consulting Group presents:",
+        "text2": "A startup accelerator dedicated to early-stage projects in healthcare.", 
+        "text3": "Recruiting our first cohort of companies now!"
 
     },
     "About": {
-        "paragraph": "Phoenix Consulting Group is a UC Berkeley-based student group dedicated to consulting for the healthcare, life sciences, and biotech industries. As a way to further the health-tech industry, we’re launching an accelerator program for early-stage startups. We're kicking things off by connecting exciting early-stage startups with investors in our first-ever Demo Day May 4, 2021!"
+        "paragraph": "Phoenix Consulting Group is a UC Berkeley-based student group dedicated to consulting for the healthcare, life sciences, and biotech industries. As a way to further the health-tech industry, we’re launching Health Engine, an accelerator program for early-stage startups."
         
     },
+
+    "Program": {
+      "paragraph": "Our is available free-of-charge to each cohort of startups. It features access to our enormous network of VCs, mentors, and access to the resource-rich UC Berkeley ecosystem. We host workshops catered around the needs of our startups taught by experts, investors, and successful entrepreneurs. Our team is dedicated to providing your startup the resources it needs to change the world."  
+    },
+
     "Services": [{
             "icon": "fa fa-wordpress",
             "name": "Lorem ipsum dolor",
@@ -93,7 +98,7 @@
         "phone": "+1 123 456 1234",
         "email": "info@company.com",
         "facebook": "fb.com",
-        "twitter": "https://twitter.com/pcgberkeley",
+        "twitter": "https://twitter.com/healthenginecal",
         "youtube": "https://youtube.com"
     },
     "Sponsors": [{
