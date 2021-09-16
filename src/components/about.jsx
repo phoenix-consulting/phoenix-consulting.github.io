@@ -6,16 +6,11 @@ export class about extends Component {
         <div id="about">
         <div className="container">
           <div className="row">
-            <div className="col-md-6"> 
-            <a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer"> <img src="img/phoenix.png" className="img-responsive" alt=""/>
-            </a>
             
-            <a href={"https://berkeley.edu"} target="_blank" rel="noopener noreferrer"> <img src="img/berkeley.png" className="img-responsive" alt=""/>
-            </a> </div>
-            <div className="col-md-6">
+            
               <div className="about-text">
-                <h2>About Us</h2>
-                <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
+                <h2 >About Us</h2>           
+                <p><a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer" >Phoenix Consulting Group</a> {this.props.data ? this.props.data.paragraph : 'loading...'}</p>
                 <h3>Applications Open Soon! </h3>
                 <p> In the meantime, feel free to send any inquiries to healthengine.berkeley@gmail.com.
 </p>
@@ -35,7 +30,7 @@ export class about extends Component {
                   </div>
 
                 </div> */}
-              </div>
+             
             </div>
           </div>
         </div>

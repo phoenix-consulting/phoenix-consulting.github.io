@@ -30,7 +30,6 @@ export class App extends Component {
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         
-        <About data={this.state.landingPageData.About} />
         {/* <Sponsors data={this.state.landingPageData.Sponsors} /> */}
         {/* <Services data={this.state.landingPageData.Services} /> */}
         <Program data={this.state.landingPageData.Program}/>
@@ -38,7 +37,10 @@ export class App extends Component {
         {/* <Testimonials data={this.state.landingPageData.Testimonials} /> */}
         {/* <Partners data={this.state.landingPageData.Partners} /> */}
         {/* <Faq data={this.state.landingPageData.Faq}/> */}
+        <About data={this.state.landingPageData.About} />
         <Contact data={this.state.landingPageData.Contact} />
+        
+
       </div>
     )
   }
