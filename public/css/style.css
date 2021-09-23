@@ -24,6 +24,7 @@ body, html {
 }
 h2, h3, h4 {
 	font-family: Dela, sans-serif;
+	text-transform: uppercase;
 }
 h2 {
 	text-transform: uppercase;

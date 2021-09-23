@@ -11,8 +11,9 @@ export class about extends Component {
               <div className="about-text">
                 <h2 >About Us</h2>           
                 <p><a href={"https://phoenix.berkeley.edu"} target="_blank" rel="noopener noreferrer" >Phoenix Consulting Group</a> {this.props.data ? this.props.data.paragraph : 'loading...'}</p>
-                <h3>Applications Open Soon! </h3>
-                <p> In the meantime, feel free to send any inquiries to healthengine.berkeley@gmail.com.
+                <a href={"https://airtable.com/shr9RRSty9KOOGoWD"} target="_blank" rel="noopener noreferrer" ><h3 style={{color: '#f89b29', textDecoration: 'underline'}}> Apply To Our Program Here! </h3></a> 
+                
+                <p> Feel free to send any additional inquiries to healthengine.berkeley@gmail.com.
 </p>
                 {/* <div className="">
 

@@ -20,6 +20,7 @@ body, html {
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
+	background: rgb(25,6,5);
 }
 h2, h3, h4 {
 	font-family: Dela, sans-serif;
@@ -29,16 +30,16 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 800;
 	font-size: 36px;
-	color: #333;
+	color: #fff;
 }
 h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #333;
+	color: #fff;
 }
 h4 {
 	font-size: 18px;
-	color: #333;
+	color: #fff;
 	font-weight: 600;
 }
 h5 {
@@ -49,6 +50,7 @@ h5 {
 p {
 	font-family: Karla;
 	font-size: 15px;
+	color: #fff;
 }
 p.intro {
 	margin: 12px 0 0;
@@ -58,6 +60,7 @@ a {
 	font-family: Karla, sans-serif;
 	color: #608dfd;
 	font-weight: 400;
+	font-size: 15px;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -86,7 +89,7 @@ hr {
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: rgb(25,6,5);
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
@@ -94,7 +97,7 @@ hr {
 	font-family: Dela, sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: #333;
+	color: #fff;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
@@ -203,7 +206,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #e5e5e5;
+	background-color: #fff; /* #e5e5e5; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
