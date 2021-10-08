@@ -13,8 +13,25 @@
     },
 
     "Program": {
-      "paragraph": "Health Engine’s program is non-dilutive, semester-long, remote-first, and free of charge to cohort startups. While we are highly flexible—and our ultimate goal is to help you find everything your company needs to make its solution a reality—we center our support around 6 pillars: point people, mentors, our network, workshops, cohort events, and recruitment pipelines."
-        
+      "description": "Health Engine’s program is non-dilutive, semester-long, remote-first, and free of charge to cohort startups. While we are highly flexible—and our ultimate goal is to help you find everything your company needs to make its solution a reality—we center our support around 6 pillars: point people, mentors, our network, workshops, cohort events, and recruitment pipelines.",
+      "point_people":
+      "Each startup is paired with one internal point person, available 5 days a week for 12-16 hours a day. Our point people serve as one-stop-shops for operational help and navigating Health Engine’s network and resources.\nBeing UC Berkeley students, they are also entrenched in the Berkeley community, offering tailored support and connections your company needs inside and outside the student body.",
+      
+      "mentors":
+      "Startups are paired with program mentors who have experience in their domain of interest. Mentors are typically highly involved and dedicated to taking startups to the next level, sharing their expertise and network. In addition to formally assigned mentors, startups can find ad hoc advisors across our network.",
+      
+      "network":
+      "Need to talk to an expert on data interoperability, CRISPR, or insurance? Want to find a partner in the public sector? Our network is here to serve you. Your point person and accelerator staff are happy to provide warm introductions to experts, talent, partners and sponsors, investors, and potential customers.",
+      
+      "workshops":
+      "We host workshops every Wednesday catered around the needs of our startups taught by experts, investors, and successful entrepreneurs. Topics range from customer discovery strategy to team building to pitch and fundraising guides.",
+      
+      "cohort_experience":
+      "In addition to Wednesday workshops, we facilitate Monday sessions where startups engage in Q&A discussions with roundtables of mentors and their fellow cohort founders. Health Engine also organizes networking events, special cohort access to our demo day, Ready, Set, Health, and office hours for miscellaneous questions. We encourage attendance at all events, but rest assured—we know how important it is to buckle down to work sometimes. We’re happy to work with you to figure out an event schedule that works best for your startup.",
+      
+      "recruitment":
+      "Finally, Health Engine has the advantage of being a part of the UC Berkeley community, home to some of the world’s brightest talent in healthcare, computer science & engineering, and business. We take it a step further and offer you direct access to students in top consulting and tech clubs, the Fung Fellowship, the Robinson Life Sciences Entrepreneurship program, and graduate programs. Our team will compile resume books, run talent searches on your behalf, and organize virtual hiring days."
+      
     },
 
     "Services": [{
